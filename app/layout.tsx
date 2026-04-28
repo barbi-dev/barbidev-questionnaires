@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Cuestionario",
-  description: "Preguntas opción múltiple para evaluar tus conocimientos",
+  description: "Preguntas opción múltiple para evaluar conocimientos académicos",
 };
 
 export default function RootLayout({
