@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { title } from "process";
 
 const quizzes = [
   {
@@ -28,6 +29,13 @@ const quizzes = [
     href: "/chemreac",
     tag: "Reacciones",
     questions: "40 preguntas",
+  },
+  {
+    title: "Sales Cuaternarias",
+    subtitle: "Sales ácidas, dobles y básicas",
+    href: "/chemcuat",
+    tag: "Cuaternarios",
+    questions: "90 preguntas",
   },
   {
     title: "Matemática - General",
